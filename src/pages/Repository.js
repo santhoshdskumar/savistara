@@ -5,16 +5,6 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import {  Image, ListGroup } from "react-bootstrap";
 import Banner from "../assets/images/repository.jpg";
-import PhotoAlbum from "react-photo-album";
-import Lightbox from "yet-another-react-lightbox";
-import "yet-another-react-lightbox/styles.css";
-
-// import optional lightbox plugins
-import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
-import Slideshow from "yet-another-react-lightbox/plugins/slideshow";
-import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
-import Zoom from "yet-another-react-lightbox/plugins/zoom";
-import "yet-another-react-lightbox/plugins/thumbnails.css";
 
 const photos = [
     {
