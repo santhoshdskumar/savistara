@@ -6,61 +6,6 @@ import Footer from "../components/Footer/Footer";
 import {  Image, ListGroup } from "react-bootstrap";
 import Banner from "../assets/images/repository.jpg";
 
-const photos = [
-    {
-        src: `${Banner}`,
-        width: 800,
-        height: 600,
-        id:1
-    },
-    {
-        src: `${Banner}`,
-        width: 1600,
-        height: 900,
-        id:2
-
-    },
-    {
-        src: `${Banner}`,
-        width: 1600,
-        height: 900,
-        id:3
-    },
-    {
-        src: `${Banner}`,
-        width: 1600,
-        height: 900,
-        id:4
-
-    },
-    {
-        src: `${Banner}`,
-        width: 1600,
-        height: 900,
-        id:5
-    },
-    {
-        src: `${Banner}`,
-        width: 1600,
-        height: 900,
-        id:6
-
-    },
-    {
-        src: `${Banner}`,
-        width: 1600,
-        height: 900,
-        id:7
-    },
-    {
-        src: `${Banner}`,
-        width: 1600,
-        height: 900,
-        id:8
-    }
-];
-
-
 
 const Repository = () =>{
     const [repository, setRepository] = useState([]);
@@ -73,10 +18,7 @@ const Repository = () =>{
             console.log(aboutData);
             setRepository(aboutData[0].repository)
         })
-        const slides = photos.map((image)=>{
-            gallery.push(image);
-        })
-        console.log(gallery);
+   
     },[]);
     
     return (
