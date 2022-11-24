@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.30264f7c.css",
+    "main.js": "/static/js/main.367a84e3.js",
+    "static/media/aboutone.jpg": "/static/media/aboutone.7eea4ffb0660ef4699f4.jpg",
+    "static/media/repository.jpg": "/static/media/repository.d4fc198febd94bb95e28.jpg",
+    "static/media/objectives.jpg": "/static/media/objectives.59f4d29d0d0c99d9c567.jpg",
+    "static/media/aboutus.jpg": "/static/media/aboutus.cba8425fa61c82023eca.jpg",
+    "static/media/logo.png": "/static/media/logo.40366db9f96e5c0c93be.png",
+    "static/media/why.jpg": "/static/media/why.0c49ddac506a1dd42ed5.jpg",
+    "static/media/methodology.jpeg": "/static/media/methodology.5925a597bd0b2d237261.jpeg",
+    "static/media/why.png": "/static/media/why.2630d874a6e458dfd69b.png",
+    "static/media/hero.png": "/static/media/hero.19c9727b53d0af6754e4.png",
+    "static/media/determine.png": "/static/media/determine.5ccf72aa30f2b3dd61c3.png",
+    "static/media/about.png": "/static/media/about.2a0a20751867cdd8d80a.png",
+    "static/media/admission.png": "/static/media/admission.7cdcc5c1b06e3971493b.png",
+    "static/media/students.jpg": "/static/media/students.1deb9ce0f24cc4378835.jpg",
+    "static/media/hero-bg.png": "/static/media/hero-bg.2e1d1ad247ae2d43f1bd.png",
+    "index.html": "/index.html",
+    "main.30264f7c.css.map": "/static/css/main.30264f7c.css.map",
+    "main.367a84e3.js.map": "/static/js/main.367a84e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30264f7c.css",
+    "static/js/main.367a84e3.js"
+  ]
+}
