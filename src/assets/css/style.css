@@ -64,7 +64,6 @@ body {
 
 .header_section {
   padding-top: 10px;
-  position: fixed;
   width: 100%;
   z-index: 2;
   background-color: #eac213;
@@ -592,7 +591,6 @@ input[type=number]::-webkit-outer-spin-button {
   color: red;
 }
 .innerBody {
-  padding-top:96px;
 }
 .bannerSection img{
   height: 450px;
