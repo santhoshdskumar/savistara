@@ -12,7 +12,9 @@ return (
     <header className="header_section">
       <div className="container">
         <Navbar  expand="lg"  className="navbar navbar-expand-lg custom_nav-container ">
-        <Navbar.Brand href="/"><Image src={Logo} /></Navbar.Brand>
+        <Navbar.Brand href="/">
+          <p><Image src={Logo} /></p>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto" >
@@ -23,16 +25,15 @@ return (
               <NavDropdown.Item href="/repository">
                Repository
               </NavDropdown.Item>
-              <NavDropdown.Item href="/faqs">Faq</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="/activites">Our Activites</Nav.Link>
           <NavDropdown title="Join Savistara" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/about">Teach</NavDropdown.Item>
+              <NavDropdown.Item href="/teach">Teach</NavDropdown.Item>
               <NavDropdown.Item href="/joinus">
                 Join Savistara
               </NavDropdown.Item>
               <NavDropdown.Item href="/volunteer">Volunteer</NavDropdown.Item>
-              <NavDropdown.Item href="/volunteer">Our Programs</NavDropdown.Item>
+              <NavDropdown.Item href="/ourprograms">Our Programs</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="/contact">Contact Us</Nav.Link>
         </Nav>

@@ -13,6 +13,7 @@ const Footer = () => {
               Savistara A GURUKUL
           </h2>
         </div>
+          <p className="text-center"><small>Recognized by Karnataka State Government</small></p>
           <div className="container layout_padding2">
             <div className="row">
               <div className="col-md-5">
