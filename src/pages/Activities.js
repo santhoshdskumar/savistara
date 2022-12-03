@@ -1,9 +1,9 @@
 import React, {useState} from "react";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
-// import { Gallery } from "react-grid-gallery";
-// import Lightbox from "yet-another-react-lightbox";
-// import "yet-another-react-lightbox/styles.css";
+import { Gallery } from "react-grid-gallery";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 import { images } from "../components/images";
 import Banner from "../assets/images/aboutus.jpg";
 import {  Image, ListGroup } from "react-bootstrap";
