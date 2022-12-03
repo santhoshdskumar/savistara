@@ -29,27 +29,7 @@ const Activities = () =>{
                             <h1>Our Activities</h1>
                     </div>
                 </div>
-        <div className="container">
-            <div className="row py-5">
-                <div className="col-12">
-                    <p>A range of activities are available to students to choose from during the activity periods that happen at the end of the day. Yoga, Gardening, Science Lab, Baking, Re-cycling, Carpentry, Tabla, Craft, Theatre, Music, Media Club, Bird-watching, Clay-modelling and Composting are some of the activities offered.
 
-Dance and Movement and Art, Craft and Pottery are time-tabled activities that are offered during the week to all children.</p>
-                    <Gallery
-                        images={images}
-                        onClick={handleClick}
-                        enableImageSelection={false}
-                    />
-                    <Lightbox
-                        slides={slides}
-                        open={index >= 0}
-                        index={index}
-                        close={() => setIndex(-1)}
-                    />
-                </div>
-            </div>
-
-            </div>
         <Footer />
         </>
     )
