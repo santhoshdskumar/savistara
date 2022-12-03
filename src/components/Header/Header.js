@@ -26,7 +26,7 @@ return (
                Repository
               </NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link href="/activites">Our Activites</Nav.Link>
+          {/* <Nav.Link href="/activites">Our Activites</Nav.Link> */}
           <NavDropdown title="Join Savistara" id="basic-nav-dropdown">
               <NavDropdown.Item href="/teach">Teach</NavDropdown.Item>
               <NavDropdown.Item href="/joinus">
