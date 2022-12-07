@@ -1,21 +1,12 @@
 import React, {useState} from "react";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
-import { Gallery } from "react-grid-gallery";
-import Lightbox from "yet-another-react-lightbox";
-import "yet-another-react-lightbox/styles.css";
 import { images } from "../components/images";
 import Banner from "../assets/images/aboutus.jpg";
 import {  Image, ListGroup } from "react-bootstrap";
-const slides = images.map(({ original, width, height }) => ({
-    src: original,
-    width,
-    height,
-  }));
+import Carousel from 'react-bootstrap/Carousel';
 
 const Activities = () =>{
-    const [index, setIndex] = useState(-1);
-    const handleClick = (index, item) => setIndex(index);
 
     return (
         <>
@@ -30,6 +21,38 @@ const Activities = () =>{
                     </div>
                 </div>
 
+                    <div className="bodySection py-5">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-12">
+                                    <h3 className="titletag ">Our Activites</h3>
+                                    <Carousel fade className="pt-3">
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Banner}
+                                            alt="First slide"
+                                            />
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Banner}
+                                            alt="Second slide"
+                                            />
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Banner}
+                                            alt="Third slide"
+                                            />
+                                        </Carousel.Item>
+                                        </Carousel>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
         <Footer />
         </>
     )

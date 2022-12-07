@@ -32,7 +32,7 @@ const Study = () => {
                 <div className="row fullrow">
                     <div className="col-md-12 col-12 col-lg-12 ">
                     <h3 className="titletag ">Join Us</h3>
-                    <p></p>If you and your child(ren) would like to be part of the Savistara A Gurukul family please fill this <a href={Document}>form</a> and email it to us at <a href="mailto:savistara@gmail.com" >savistara@gmail.com</a>.
+                    <p></p>If you and your child(ren) would like to be part of the Savistara A Gurukul family please fill this <a href={Document}>form</a> and email it to us at <a href="mailto:savistara.edu@gmail.com" >savistara.edu@gmail.com</a>.
                     We will get in touch with you about the admission process.
                     </div>
                 </div>

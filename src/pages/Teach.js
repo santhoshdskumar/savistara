@@ -18,8 +18,16 @@ const Teach =()=>{
                             <p>Looking for enthusiastic and creative individuals</p>
                     </div>
                 </div>
-            <div className="bodyContent">
-
+            <div className="bodyContent py-5">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <h3 className="titletag">Join Our Team</h3>
+                            <p>We are looking for enthusiastic and creative individuals interested in holistic education who can contribute to our community.
+If you are interested in Poorna’s work and would like to get in touch, please reach out us <a href="mail-to:savistara.edu@gmail.com" target="_blank">savistara.edu@gmail.com.</a>.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         <Footer />
         </>

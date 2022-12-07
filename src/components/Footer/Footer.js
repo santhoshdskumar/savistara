@@ -1,6 +1,6 @@
 import { Navbar, Image, Nav, Carousel, Input } from "react-bootstrap";
 import Facebook from "../../assets/images/fb.png";
-import Twitter from "../../assets/images/twitter.png";
+import Twitter from "../../assets/images/whatsapp-logo.png";
 import Instagram from "../../assets/images/instagram.png";
 
 
@@ -63,15 +63,16 @@ const Footer = () => {
           <div className="container">
               <div className="social_container">
                   <div className="social-box">
-                    <a href="">
+                    <a href="https://www.facebook.com/profile.php?id=100087060897436&mibextid=ZbWKwL" target="_blank">
                       <Image src={Facebook}lt="" />
                     </a>
-      
-                    <a href="">
+                    <a href="whatsapp://send?text=Hello !&phone=+919886301271">
+                    
                       <Image src={Twitter} alt="" />
                     </a>
-                    <a href="">
-                      <Image src={Instagram} alt="" />
+                    
+                    <a href="savistara.edu2019"  target="_blank">
+                      <Image src={Instagram} alt=""  target="_blank"/>
                     </a>
                   </div>
                 </div>
