@@ -55,11 +55,11 @@ const Volunteer = () => {
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                    <p>Poorna is a space conducive for experimentation and growth; we welcome enthusiastic and skilled individuals who would be interested in engaging with our students and the larger community.</p>
+                    <p>Savistara is a space conducive for experimentation and growth; we welcome enthusiastic and skilled individuals who would be interested in engaging with our students and the larger community.</p>
 
 <p>We usually expect a commitment of one year from volunteers to ensure the contribution and engagement is meaningful for both students and volunteers.</p>
 
-<p>If you are interested in Poorna’s work and would like to get in touch, please fill the form below and we will get back to you.</p>
+<p>If you are interested in Savistara's work and would like to get in touch, please fill the form below and we will get back to you.</p>
                 </div>
             </div>
         <div className="row">
